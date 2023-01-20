@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MyApp1.bundle.scp.css"
     },
     {
+      "Id": "C:\\Temp\\MyApp1\\wwwroot\\app.js",
+      "PackagePath": "staticwebassets\\app.js"
+    },
+    {
       "Id": "C:\\Temp\\MyApp1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -243,6 +247,10 @@
     {
       "Id": "C:\\Temp\\MyApp1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Temp\\MyApp1\\wwwroot\\logo.svg",
+      "PackagePath": "staticwebassets\\logo.svg"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MyApp1.Microsoft.AspNetCore.StaticWebAssets.props",

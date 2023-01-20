@@ -18,7 +18,7 @@
   <body>
     <header>
       <div class="header">
-        <img class="logo" alt="logo" src="./logo.svg" />
+        <img class="logo" alt="logo" src="~/images/logo.svg" />
         <p class="date">Dagens datum är: 2023-01-20</p>
       </div>
     </header>
@@ -31,15 +31,13 @@
       <aside class="sidebar">
         <h3>Menu</h3>
         <nav class="menu">
-          <a href="#" class="sidebar-li">Home</a>
-          <a href="#" class="sidebar-li">About</a>
-          <a href="#" class="sidebar-li">Portfolio</a>
+          <a class="sidebar-li" asp-area="" asp-page="/About">About</a>
+        
         </nav>
       </aside>
       <div class="main-content">
         <main role="main">
           @RenderBody()
-          <h1>Welcome, Human!</h1>
         </main>
       </div>
     </div>
@@ -51,7 +49,7 @@
         </p>
       </footer>
     </div>
-<script src="./app.js"></script>
+<script src="~/js/app.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
   </body>
 </html>

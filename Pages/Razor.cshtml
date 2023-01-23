@@ -1,5 +1,4 @@
-@page "/Razor"
-@inject HttpClient Http
+@page
 
 @model MyApp.Namespace.RazorModel
 @{
@@ -16,39 +15,6 @@
 } else {
     <p class="mt-3">Idag är det inte måndag!</p>
 }
-
-
-@if (courses == null)
-{
-    <p>Loading...</p>
-}
-else
-{
-    @foreach (var course in courses) 
-    { 
-        <p>course <i class="fa fa-id-badge" aria-hidden="true"></i>: @course.Id</p>
-    }
-}
-
-
-@code {
-    
-    private Course[]? courses;
-
-    protected override async Task OnInitializedAsync()
-    {
-        courses = await Http.GetFromJsonAsync<Course[]>("courses.json");
-    }
-
-    public class Course 
-    {
-        public string? id  { get; set;}
-        public string? courseCode { get; set; }
-        public string? name { get; set; }
-    } 
-}
-
-
 
 
 

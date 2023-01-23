@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KyQjXNc10FE4E4DuAMQqhrsDXPkkoxQkAo6rnXgVor4=",
+  "Hash": "urWK9D0tEhMvCQ/sPg+MrWJuyWnfvwwnOIzC+yTjPok=",
   "Source": "MyApp1",
   "BasePath": "_content/MyApp1",
   "Mode": "Default",
@@ -51,23 +51,6 @@
       "OriginalItemSpec": "C:\\Temp\\MyApp1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MyApp1.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Temp\\MyApp1\\wwwroot\\app.js",
-      "SourceId": "MyApp1",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Temp\\MyApp1\\wwwroot\\",
-      "BasePath": "_content/MyApp1",
-      "RelativePath": "app.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\app.js"
-    },
-    {
       "Identity": "C:\\Temp\\MyApp1\\wwwroot\\css\\site.css",
       "SourceId": "MyApp1",
       "SourceType": "Discovered",
@@ -100,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Temp\\MyApp1\\wwwroot\\images\\logo.svg",
+      "SourceId": "MyApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Temp\\MyApp1\\wwwroot\\",
+      "BasePath": "_content/MyApp1",
+      "RelativePath": "images/logo.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.svg"
+    },
+    {
+      "Identity": "C:\\Temp\\MyApp1\\wwwroot\\js\\app.js",
+      "SourceId": "MyApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Temp\\MyApp1\\wwwroot\\",
+      "BasePath": "_content/MyApp1",
+      "RelativePath": "js/app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\app.js"
     },
     {
       "Identity": "C:\\Temp\\MyApp1\\wwwroot\\js\\site.js",
@@ -1086,23 +1103,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Temp\\MyApp1\\wwwroot\\logo.svg",
-      "SourceId": "MyApp1",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Temp\\MyApp1\\wwwroot\\",
-      "BasePath": "_content/MyApp1",
-      "RelativePath": "logo.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\logo.svg"
     }
   ]
 }

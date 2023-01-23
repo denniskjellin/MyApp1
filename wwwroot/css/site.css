@@ -129,6 +129,11 @@ Sidebar style --------------------
   transform: rotate(90deg);
 }
 
+.active {
+	color: #3bba9c;
+	border-right: 3px solid #3bba9c;
+}
+
 .sidebar {
 	flex: 1 1 0;
 	max-width: 300px;
@@ -164,11 +169,24 @@ Sidebar style --------------------
 	border-right: 5px solid #3bba9c;
 }
 
+
+
+
 .sidebar .menu .sidebar-li:hover {
 	border-right: 5px solid #3bba9c;
 }
 
+.mt-1 {
+	margin-top: .3rem;
+}
 
+.mt-2 {
+	margin-top: .5rem;
+}
+
+.mt-1 {
+	margin-top: .8rem;
+}
 /*
 ---------- FOOTER -----------------
 */

@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,7 +19,8 @@
     <header>
       <div class="header">
         <img class="logo" alt="logo" src="~/images/logo.svg" />
-        <p class="date">Dagens datum är: 2023-01-20</p>
+        <!-- writing out current date with Razor syntax below --> 
+        <p class="date">Dagens datum är: @DateTime.Now.ToString("yyyy-MM-dd")</p>
       </div>
     </header>
     <div class="wrap">
@@ -32,6 +33,7 @@
         <h3>Menu</h3>
         <nav class="menu">
           <a class="sidebar-li" asp-area="" asp-page="/Index">Home</a>
+          <a class="sidebar-li" asp-area="" asp-page="/Razor">Razor</a>
           <a class="sidebar-li" asp-area="" asp-page="/About">About</a>
         </nav>
       </aside>

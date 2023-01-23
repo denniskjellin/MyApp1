@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "courseCode": "IG021G",
+    "name": "Projektledning"
+  },
+  {
+    "id": 2,
+    "courseCode": "DT193G",
+    "name": "Fullstack-utveckling med ramverk"
+  },
+  {
+    "id": 3,
+    "courseCode": "DT173G",
+    "name": "Webbutveckling III"
+  },
+  {
+    "id": 4,
+    "courseCode": "DT197G",
+    "name": "Webbdesign för CMS"
+  },
+  {
+    "id": 5,
+    "courseCode": "DT093G",
+    "name": "Webbutveckling II"
+  },
+  {
+    "id": 6,
+    "courseCode": "DT003G",
+    "name": "Databaser"
+  },
+  {
+    "id": 7,
+    "courseCode": "DT068G",
+    "name": "Webbanvändbarhet"
+  },
+  {
+    "id": 8,
+    "courseCode": "DT084G",
+    "name": "Introduktion till programmering i JavaScript"
+  },
+  {
+    "id": 9,
+    "courseCode": "DT057G",
+    "name": "Webbutveckling I"
+  }
+]

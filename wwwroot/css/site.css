@@ -41,7 +41,7 @@ HEADER Components & styling
  }
  
  .date {
-    font-size: 1.2em;
+    font-size: 1rem;
     position: absolute;
     right: 20px;
     top: 39px;
@@ -184,7 +184,7 @@ Sidebar style --------------------
 	margin-top: .5rem;
 }
 
-.mt-1 {
+.mt-3 {
 	margin-top: .8rem;
 }
 /*

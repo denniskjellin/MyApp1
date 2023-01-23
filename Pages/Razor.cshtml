@@ -33,9 +33,9 @@ else
 
 @code {
     
-    public Course[]? courses;
+    private Course[]? courses;
 
-    public override async Task OnInitializedAsync()
+    protected override async Task OnInitializedAsync()
     {
         courses = await Http.GetFromJsonAsync<Course[]>("courses.json");
     }

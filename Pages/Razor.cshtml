@@ -18,3 +18,26 @@
 
 
 
+<!--Create a string with List-->
+@{
+    var courses = new List<string>{"DT191G, Webbutv med .NET"};
+        //demonstrating how to add to this string
+         courses.Add("DT162G, Javascriptbaserad webbutv");
+         courses.Add("DT071G, Programmering i C# .NET");
+         courses.Add("DT173G, Webbutv III");
+         courses.Add("DT093G, Webbutv II");
+         courses.Add("DT057G, Webbutv I");
+         
+}
+
+<!--Loop out to screen -->
+ <p class="mt-3"><strong>Lite kurser jag läst:</strong></p>
+<ul>
+    @foreach (var course in courses)
+    {
+        <li class="mt-1 ml-4">@course</li>
+    }
+
+</ul>
+
+

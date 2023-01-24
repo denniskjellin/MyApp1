@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "urWK9D0tEhMvCQ/sPg+MrWJuyWnfvwwnOIzC+yTjPok=",
+  "Hash": "v8gfDXBKggKKB1TZ6KiDKFzHL633qW4alPvlokJa3aM=",
   "Source": "MyApp1",
   "BasePath": "_content/MyApp1",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Temp\\MyApp1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MyApp1.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Temp\\MyApp1\\wwwroot\\courses.json",
+      "SourceId": "MyApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Temp\\MyApp1\\wwwroot\\",
+      "BasePath": "_content/MyApp1",
+      "RelativePath": "courses.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\courses.json"
     },
     {
       "Identity": "C:\\Temp\\MyApp1\\wwwroot\\css\\site.css",
